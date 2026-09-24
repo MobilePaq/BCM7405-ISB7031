@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PackageManifest xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" name="b34override" version="1" xsi:noNamespaceSchemaLocation="ManifestFileSchema.xsd">
+  <DeliveryMechanisms>
+    <WebServer id="1" url="http://feature.iptv.beeline.ru/ClientStore/STB/NavTargets/" />
+  </DeliveryMechanisms>
+  <File name="b34override.xml" sha1="JbhxzjYkW9nELQSiOEyJ9QBtuZg=" />
+</PackageManifest>

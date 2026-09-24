@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ApplicationManifest xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" name="0" version="1">
+  <Package name="b34override" url="http://feature.iptv.beeline.ru/ClientStore/STB/Manifests/b34override/b34override_manifest_pack.xml" version="1" sha1="lUewTaT1munDojOPmCjY0WFKzWo=" />
+</ApplicationManifest>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mappings xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<target name="search" location="page:https://services.iptv.microsoft.com/search/stb?__MPF=mds_microsoft.mediaroom.common/2.1/main"/>
+<target name="searchresultsforaperson" location="page:https://services.iptv.microsoft.com/search/stb?clientType=People&amp;__MPF=mds_microsoft.mediaroom.common/2.1/mai" />
+<target name="othershowingsseries" location="page:https://services.iptv.microsoft.com/search/stb/series/other-showings?__MPF=mds_microsoft.mediaroom.common/2.1/main" />
+<target name="othershowingsprogram" location="page:https://services.iptv.microsoft.com/search/stb/program/other-showings?__MPF=mds_microsoft.mediaroom.common/2.1/main" />
+<target name="searchpeople" location="page:https://services.iptv.microsoft.com/search/stb?clientType=People&amp;__MPF=mds_microsoft.mediaroom.common/2.1/main"/>
+<target name="searchchannels" location="page:https://services.iptv.microsoft.com/search/stb?clientType=CallLetters&amp;__MPF=mds_microsoft.mediaroom.common/2.1/main"/>
+<target name="searchtitles" location="page:https://services.iptv.microsoft.com/search/stb?clientType=Title&amp;__MPF=mds_microsoft.mediaroom.common/2.1/main"/>
+<target name="showonguidemapservice" location="page:http://frontend.iptv.beeline.ru/MDSListingsWS/Listings/ShowOnGuideMap.xml?day={0}&amp;__MPF=mds_microsoft.mediaroom.common/1.2/main" />
+<target name="showonguideprogramdataservice" location="page:http://frontend.iptv.beeline.ru/MDSListingsWS/Listings/Program.xml?stationExtId={0}&amp;startUtc={1}&amp;externalProgramId={2}&amp;$expand=LiveToVodPlaybackData&amp;__MPF=mds_microsoft.mediaroom.common/1.2/main"/>
+</mappings>

@@ -1,0 +1,1 @@
+<StationsMetadata xmlns="http://schemas.datacontract.org/2004/07/Microsoft.TV.Server.Listings" xmlns:i="http://www.w3.org/2001/XMLSchema-instance"><StationTileDurationHours>24</StationTileDurationHours><StationTileEndTime>2025-03-29T08:30:00Z</StationTileEndTime><StationTileStartTime>2025-03-19T01:00:00Z</StationTileStartTime></StationsMetadata>

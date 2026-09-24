@@ -1,0 +1,35 @@
+<ClientConfig>
+  <CmdLine>-enabletimeshiftui -fullscreeneditfavorites -watchipaddresschange -eurostyleon -recordedtvmenustyle dualbuckets -rentalofferexpirationminutes 60 -stoponpausetimeoutminutes 20 -socketconnectdelay 100 -disablevideoonstandby -enablepipprogressbar -nocc -disablesubtitles -enablempeg2 -enterbuttonforoptions -splashdisablemediaroomlogo -pconallowvodanddvrlocking -colortimeshiftcells</CmdLine>
+  <NetworkConfig IGMPVersion="2" DefaultTOSValue="136" />
+  <EnableLocalHardDisk default="true" />
+  <USBConfig Enable='1'></USBConfig>
+  <Unplugged>
+    <SignalLostTime>10</SignalLostTime>
+    <DisplayNotification>true</DisplayNotification>
+  </Unplugged>
+  <HDMI>
+    <DefaultScreenMode>720p</DefaultScreenMode>
+    <HdcpAllowDisable>true</HdcpAllowDisable>
+  </HDMI>
+  <AllowProgramWatchedEvents Enable="true" />
+  <AllowUserTimeLocks Enabled="true">
+    <UserTimeLockPeriodDurationMinutes>120</UserTimeLockPeriodDurationMinutes>
+  </AllowUserTimeLocks>
+  <ParentalControlMenuEntries>ADULT,USERTIME,CHANNEL,UNRATED,VODDVR,PURCHASE</ParentalControlMenuEntries>
+  <RecentPanel Enabled="true" UserEnabledDefault="false" DismissTimeoutSeconds="10">
+    <TuneOnRecent>false</TuneOnRecent>
+  </RecentPanel>
+  <SmoothStreaming>
+    <DisableProfileFilter>false</DisableProfileFilter>
+    <DisableRateControl>false</DisableRateControl>
+    <MaxQLBitrate>15000000</MaxQLBitrate>
+    <MinQLBitrate>1500000</MinQLBitrate>
+  </SmoothStreaming>
+  <FavoriteChannelLists StickyMode="true" UseFixedNames="false" AllowReorder="true">
+    <MaxLists>5</MaxLists>
+  </FavoriteChannelLists>
+  <OptionsPanelOrdering>
+    <FullScreenTV>GuideFilters,AspectRatio,Separator,FavoritesLists,AddRemoveFromFavorites,EditFavorites,Separator,AudioLanguage,ChannelSearch</FullScreenTV>
+    <Guide>GuideFilters,Separator,JumpToDayTime,BouquetMenus,Separator,FavoritesLists,AddRemoveFromFavorites,EditFavorites,Separator,GuideSettings</Guide>
+  </OptionsPanelOrdering>
+</ClientConfig>
